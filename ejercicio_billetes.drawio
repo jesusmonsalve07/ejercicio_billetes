@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="iU7_Z39-5LBCkBgY8rTw" name="Página-1">
+        <mxGraphModel dx="1118" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="10" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="90" as="sourcePoint"/>
+                        <mxPoint x="413" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="total_bill_10000 = 0&lt;br&gt;total_bill_2000 = 0&lt;br&gt;total_mon_100 = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="344" y="160" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="230" as="sourcePoint"/>
+                        <mxPoint x="413" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="cheque&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="349" y="290" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="350" as="sourcePoint"/>
+                        <mxPoint x="413" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="cheque != 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="364" y="400" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414" y="490" as="sourcePoint"/>
+                        <mxPoint x="414" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="464" y="444.5" as="sourcePoint"/>
+                        <mxPoint x="594" y="444.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="total_bill_10000&lt;br&gt;total_bill_2000&lt;br&gt;total_mon_100" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="410" width="130" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="bill_10000 = cheque // 10000&lt;br&gt;bill_2000 = cheque % 10000&lt;br&gt;bill_2000 = cheque // 2000&lt;br&gt;mon_100 = cheque % 2000&lt;br&gt;mon_100 = cheque // 2000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="550" width="216" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="680" y="480" as="sourcePoint"/>
+                        <mxPoint x="680" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="570" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="690" as="sourcePoint"/>
+                        <mxPoint x="413" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="cheque&lt;br&gt;bill_10000&lt;br&gt;bill_2000&lt;br&gt;mon_100" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="339" y="780" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="417.5" y="870" as="sourcePoint"/>
+                        <mxPoint x="417.5" y="930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="cheque" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="359" y="930" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="970" as="sourcePoint"/>
+                        <mxPoint x="414" y="500" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="500"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="970" as="sourcePoint"/>
+                        <mxPoint x="260" y="970" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="970"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

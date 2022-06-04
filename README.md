@@ -1,0 +1,3 @@
+#Ejercicio 3
+
+EL cajero de un banco solo dispone de billetes de $10000, de $2000 y monedas de $100. Su funcion es cambiar los cheques a los clientes, dandoles el menor numero posible de billetes, asumiendo que todos los cheques son multiplos de $100, hacer el diagrama y el programa que reciba el valor del cheque a cambiar y que le informe al cajero cuantos billetes de cada denominacion debe entregar.Como no se sabe cuantos clientes vienen en un dia, el programa 
